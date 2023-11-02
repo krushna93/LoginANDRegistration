@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: red;
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    
+    
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#login-form, #registration-form {
+    width: 300px;
+    margin: 20px;
+}
+
+input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 30px;
+    background-color: green;
+}
